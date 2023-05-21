@@ -1,14 +1,9 @@
 /* font face */
 @font-face {
     font-family: myFont;
-    src: url(../res/font/Josefin_Sans/static/JosefinSans-Regular.ttf);
+    src: url(../res/font/JosefinSans-Regular.ttf);
 }
 
 body{
     font-family: myFont !important;
-}
-
-/* classes */
-.space{
-    margin-top: 32px;
 }
