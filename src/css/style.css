@@ -6,4 +6,31 @@
 
 body{
     font-family: myFont !important;
+    margin-top: 5% !important;
+}
+
+#edu_logo{
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.fix-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.wireframe-box{
+    border:1px gray solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.wireframe{
+    border:1px gray solid;
+    /* border-radius: 5px; */
+    padding: 20px;
 }

@@ -12,7 +12,7 @@
   <body>
 
     <!-- header section -->
-    <header>
+    <header class="fix-header">
       <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
         <div class="container">
           <a class="navbar-brand" href="#about-me">Mehdi Ebrahimi</a>
@@ -22,10 +22,10 @@
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Educations</a>
+                <a class="nav-link" aria-current="page" href="#education">Educations</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a>
+                <a class="nav-link" href="#experience">Experience</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Skills</a>
@@ -51,19 +51,50 @@
     </header>
 
     <!-- body and main section -->
-    <main>
       <!-- About me -->
+    <br>
+    <div class="container" id="about-me">
+      <h1>About me</h1>
+      <hr>
+      <p>
+        Graduated bachelor computer engineering in filed of software engineering.
+        interseted in software analysis and design, implementation (back-end) phase and
+        software architecture. love APIs and design for enterprise scale.
+      </p>
+    </div>
+    <!-- Education -->
+    <br>
+    <div class="container" id="education">
+      <h1>Educations</h1>
       <br>
-      <div class="container" id="about-me">
-        <h1>About me</h1>
-        <hr>
-        <p>
-          Graduated bachelor computer engineering in filed of software engineering.
-          interseted in software analysis and design, implementation (back-end) phase and
-          software architecture. love APIs and design for enterprise scale.
-        </p>
+      <!-- entire edu -->
+      <div class="row">
+        <!-- edu logo -->
+        <div class="col-2 justify-content-end" style="text-align: end;">
+          <img src="https://uut.ac.ir/files/publicrelations/images/95/uut(1).jpg"
+          alt="Urumia University of Technology"
+          style="width: 50%; height: auto; border-radius: 10px;">
+        </div>
+        <!-- edu info -->
+        <div class="col-10" style="line-height: 5px;">
+          <h4>Urmia University of Technology</h4>
+          <p>Bachelor degree in Computer Engineering</p>
+          <p>from: 2018-2022 (4 years)</p>
+        </div>
       </div>
-    </main>
+      <br>
+    </div>
+
+    <!-- Experience -->
+    <!-- <br>
+    <div class="container wireframe" id="experience">
+      <h1>Exeperiences</h1>
+      <div class="row wireframe">
+        <div class="col-2 wireframe"></div>
+        <div class="col-10 wireframe"></div>
+      </div>
+    </div>
+    <br> -->
 
     <!-- footer section -->
     <footer>
