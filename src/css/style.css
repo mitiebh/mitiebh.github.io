@@ -6,7 +6,7 @@
 
 body{
     font-family: myFont !important;
-    margin-top: 5% !important;
+    /* margin-top: 10% !important; */
 }
 
 #edu_logo{
@@ -33,4 +33,15 @@ body{
     border:1px gray solid;
     /* border-radius: 5px; */
     padding: 20px;
+}
+
+#edu-logo{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+}
+#edu-content{
+    float: right;
+    width: 75%;
+    margin-left: 5%;
 }

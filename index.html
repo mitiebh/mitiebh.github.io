@@ -5,6 +5,8 @@
     <title>Mehdi Ebrahimi</title>
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="src/res/img/me.jpg">
+    <!-- Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- link css stylesheet file -->
     <link rel="stylesheet" href="src/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -12,51 +14,49 @@
   <body>
 
     <!-- header section -->
-    <header class="fix-header">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#about-me">Mehdi Ebrahimi</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navigationbar">
-            <ul class="navbar-nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#education">Educations</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experience">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-                  Projects
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Freelance works</a></li>
-                  <li><a class="dropdown-item" href="#">University projects</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Collaborative projects</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-light fix-header">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#about-me">Mehdi Ebrahimi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navigationbar">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#education">Educations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Skills</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Freelance works</a></li>
+                <li><a class="dropdown-item" href="#">University projects</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Collaborative projects</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <!-- body and main section -->
       <!-- About me -->
     <br>
-    <div class="container-fluid" id="about-me">
+    <div class="container" id="about-me">
       <h1>About me</h1>
-      <hr>
-      <p>
+      <!-- <hr> -->
+      <p class="container">
         Graduated bachelor computer engineering in filed of software engineering.
         interseted in software analysis and design, implementation (back-end) phase and
         software architecture. love APIs and design for enterprise scale.
@@ -64,19 +64,19 @@
     </div>
     <!-- Education -->
     <br>
-    <div class="container-fluid" id="education">
+    <div class="container" id="education">
       <h1>Educations</h1>
       <br>
       <!-- entire edu -->
       <div class="row">
         <!-- edu logo -->
-        <div class="col-md-2 justify-content-end" style="text-align: end;">
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="width: 20%; text-align: end;">
           <img src="https://uut.ac.ir/files/publicrelations/images/95/uut(1).jpg"
           alt="Urumia University of Technology"
-          style="width: 50%; height: auto; border-radius: 10px;">
+          style="width: 4rem; border-radius: 0px 0px 20px 20px;">
         </div>
         <!-- edu info -->
-        <div class="col-md-10" style="line-height: 5px;">
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" style="line-height: 100%; width: 70%;">
           <h4>Urmia University of Technology</h4>
           <p>Bachelor degree in Computer Engineering</p>
           <p>from: 2018-2022 (4 years)</p>
