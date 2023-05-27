@@ -9,32 +9,14 @@ body{
     /* margin-top: 10% !important; */
 }
 
+#about-me{
+    margin-top: 30px;
+}
 #edu_logo{
     width: 90%;
     height: auto;
     border-radius: 10px;
 }
-
-.fix-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-
-.wireframe-box{
-    border:1px gray solid;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;
-}
-
-.wireframe{
-    border:1px gray solid;
-    /* border-radius: 5px; */
-    padding: 20px;
-}
-
 #edu-logo{
     float: left;
     width: 20%;
@@ -44,4 +26,25 @@ body{
     float: right;
     width: 75%;
     margin-left: 5%;
+}
+
+.wireframe-box{
+    border:1px gray solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+}
+.wireframe{
+    border:1px gray solid;
+    /* border-radius: 5px; */
+    padding: 20px;
+}
+.my-pic{
+    float: left;
+    width: 10%;
+    /* margin-right: 5%; */
+    /* margin-left: 5%; */
+    margin: 0% 5% 1% 5%;
+    border-radius: 5em;
+    border: 5px #223442 solid;
 }
